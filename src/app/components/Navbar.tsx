@@ -32,7 +32,7 @@ export default function Navbar() {
               icon={isClick ? faX : faBars}
               size="1x"
               className="focus:border-none active:border-none"
-              alt="menu icon"
+              
             />
           </button>
         </div>
