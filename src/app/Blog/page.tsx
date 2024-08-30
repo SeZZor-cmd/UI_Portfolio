@@ -30,8 +30,8 @@ export default function page() {
   ]
   return (
     <section className='max-w-5xl mx-auto flex flex-col'>
-      <div className='font-normal text-[22px] text-[#21243D] mb-8 mt-4'>
-        <p>Blog</p>
+      <div className='font-bold text-[22px] text-[#21243D] mb-8 mt-4'>
+        <h1>Blog</h1>
       </div>
       <div>
         {blogs.map((blog,index)=>(

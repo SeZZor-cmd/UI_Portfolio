@@ -6,7 +6,7 @@ export default function page() {
     <div className="max-w-5xl mx-auto p-6 bg-white">
     
     <div className="mb-8">
-      <p className="font-normal text-[22px] text-[#21243D] mb-8 mt-4">Get In Touch</p>
+      <h1 className="font-bold text-[22px] text-[#21243D] mb-8 mt-4">Get In Touch</h1>
       <p className="text-[#21243D]">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
         Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
