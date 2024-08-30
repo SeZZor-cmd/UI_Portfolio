@@ -15,7 +15,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="sticky top-0 z-50 flex flex-col items-center p-3 bg-white overflow-y-hidden ">
+    <nav className="sticky top-0 z-50 flex flex-col justify-center items-center p-3 bg-white overflow-hidden ">
       <div className="flex justify-end w-full mr-4 mt-1">
         <div className="hidden md:flex md:space-x-2 lg:space-x-4 mr-4 mt-1 text-[20px] font-medium">
           <Link href="/Work" className={pathname === '/Work' ? 'text-[#FF6464]' : 'text-[#21243D]'}>Work</Link>
