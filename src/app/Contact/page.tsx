@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div className="max-w-5xl mx-auto p-6 bg-white">
+    <div className="max-w-5xl mx-auto p-6 bg-white overflow-y-hidden">
     
     <div className="mb-8">
       <h1 className="font-bold text-[22px] text-[#21243D] mb-8 mt-4">Get In Touch</h1>

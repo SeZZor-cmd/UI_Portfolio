@@ -5,7 +5,7 @@ import { faFacebookF, faLinkedin, faInstagram, faTwitter } from '@fortawesome/fr
 
 export default function FooterSection() {
   return (
-    <section className='flex flex-col items-center justify-center mt-10 h-[182px]'>
+    <section className='flex flex-col items-center justify-center mt-10 h-[182px] overflow-y-hidden'>
       <div className='flex space-x-6 mb-4 text-[30px]'>
         <FontAwesomeIcon icon={faFacebookF}/>
         <FontAwesomeIcon icon={faInstagram}/>

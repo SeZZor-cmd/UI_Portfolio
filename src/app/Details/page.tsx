@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function page() {
   return (
-    <div className='max-w-5xl mx-auto flex flex-col'>
+    <div className='max-w-5xl mx-auto flex flex-col overflow-y-hidden'>
     <div className='text-[36px] font-bold text-[#21243D]'>
       <p>Designing Dashboards with usability in mind</p>
     </div>

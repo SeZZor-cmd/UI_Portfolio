@@ -17,7 +17,7 @@ export default function RecentPost() {
     },
   ]
   return (
-    <div className='bg-[#EDF7FA] py-8'>
+    <div className='bg-[#EDF7FA] py-8 overflow-y-hidden'>
     <div className=" max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start bg-[#EDF7FA]">
     
       <div>

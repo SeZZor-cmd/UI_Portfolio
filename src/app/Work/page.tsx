@@ -35,7 +35,7 @@ export default function page() {
     },
   ]
   return (
-    <div className='max-w-5xl mx-auto flex flex-col'>
+    <div className='max-w-5xl mx-auto flex flex-col overflow-y-hidden'>
       <div className='font-bold text-[22px] text-[#21243D] mb-8 mt-4'>
         <h1>Featured Work</h1>
       </div>

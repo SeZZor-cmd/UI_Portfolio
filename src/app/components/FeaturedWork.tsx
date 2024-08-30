@@ -27,7 +27,7 @@ export default function FeaturedWork() {
     },
   ]
   return (
-    <section className='max-w-5xl mx-auto flex flex-col'>
+    <section className='max-w-5xl mx-auto flex flex-col overflow-y-hidden'>
       <div className='font-normal text-[22px] text-[#21243D] mb-8 mt-4 text-center md:text-left'>
         <p >Featured Work</p>
       </div>
