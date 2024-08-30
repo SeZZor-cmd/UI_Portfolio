@@ -25,8 +25,8 @@ export default function RecentPost() {
         <p className='font-normal text-[22px] text-[#21243D]'>Recent Posts</p>
         <a href="#" className='hidden md:block text-[#00A8CC] text-[16px] font-normal'>View All</a>
         </div>
-        <div>
-          <div className='flex flex-col md:flex-row justify-center items-stretch space-y-4 md:space-y-0 md:space-x-4 mb-8 '>
+        <div className=' flex items-center justify-center'>
+          <div className='flex flex-col md:flex-row justify-center items-stretch space-y-4 md:space-y-0 md:space-x-4 mb-8 w-5/6 md:w-full'>
             {posts.map((post, index)=>(
               <div key={index} className='bg-white rounded-lg shadow-lg p-6 w-full md:w-1/2 mx-2 text-left flex flex-col text-[#21243D]'>
                 <p className='fold-bold text-[26px]'>{post.title}</p>
