@@ -38,7 +38,7 @@ export default function Navbar() {
         </div>
       </div>
       {isClick && (
-        <div className="flex flex-col items-center w-full mt-4 md:hidden">
+        <div className="flex flex-col items-center w-full mt-4 ">
           <Link href="/Work" className={pathname === '/Work' ? 'text-[#FF6464]' : 'text-[#21243D]'}>Work</Link>
           <Link href="/Blog" className={pathname === '/Blog' ? 'text-[#FF6464]' : 'text-[#21243D]'}>Blog</Link>
           <Link href="/Contact" className={pathname === '/Contact' ? 'text-[#FF6464]' : 'text-[#21243D]'}>Contact</Link>

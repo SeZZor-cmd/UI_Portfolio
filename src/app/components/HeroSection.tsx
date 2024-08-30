@@ -7,7 +7,7 @@ export default function HeroSection() {
   <>
   <main className=" flex items-center justify-center">
         <div className="space-x-8 max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start">
-          <div className="w-full md:w-1/2 p-8 order-2 md:order-1">
+          <div className="w-full md:w-1/2 p-8 order-2 md:order-1 text-center md:text-left">
             <p className="text-[#21243D] font-bold leading-[50px] text-[44px]">
               Hi, I am John,
               <br />

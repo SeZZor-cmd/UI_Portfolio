@@ -28,8 +28,8 @@ export default function FeaturedWork() {
   ]
   return (
     <section className='max-w-5xl mx-auto flex flex-col'>
-      <div className='font-normal text-[22px] text-[#21243D] mb-8 mt-4'>
-        <p>Featured Work</p>
+      <div className='font-normal text-[22px] text-[#21243D] mb-8 mt-4 text-center md:text-left'>
+        <p >Featured Work</p>
       </div>
       <div>
         {works.map((work,index)=>(
@@ -40,7 +40,7 @@ export default function FeaturedWork() {
             width={800}
             height={800}
             alt={work.title}
-            className='rounded-md'/>
+            className='rounded-md w-full md:w-1/2'/>
           <div className='ml-7'>
             <p className='font-bold text-[30px]'>{work.title}</p>
             <span className='bg-[#142850] text-white rounded-full px-2 py-0.5 text-[18px] mt-4'>{work.year} </span>

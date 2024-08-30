@@ -21,16 +21,16 @@ export default function RecentPost() {
     <div className=" max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start bg-[#EDF7FA]">
     
       <div>
-        <div className='flex justify-between items-center mb-8 '>
+        <div className='flex justify-center md:justify-between items-center mb-8 '>
         <p className='font-normal text-[22px] text-[#21243D]'>Recent Posts</p>
-        <a href="#" className='text-[#00A8CC] text-[16px] font-normal'>View All</a>
+        <a href="#" className='hidden md:block text-[#00A8CC] text-[16px] font-normal'>View All</a>
         </div>
         <div>
           <div className='flex flex-col md:flex-row justify-center items-stretch space-y-4 md:space-y-0 md:space-x-4 mb-8 '>
             {posts.map((post, index)=>(
               <div key={index} className='bg-white rounded-lg shadow-lg p-6 w-full md:w-1/2 mx-2 text-left flex flex-col text-[#21243D]'>
                 <p className='fold-bold text-[26px]'>{post.title}</p>
-                <p className='mt-5 mb-5 text-[18px]'>{post.date} <span>|</span><span>{post.category}</span></p>
+                <p className='mt-5 mb-5 text-[18px]'>{post.date} <span className='ml-4'>|</span><span className='ml-4'>{post.category}</span></p>
                 <p>{post.description}</p>
               </div>
             ))}
