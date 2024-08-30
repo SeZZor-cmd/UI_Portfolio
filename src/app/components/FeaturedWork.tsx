@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 
@@ -36,8 +37,8 @@ export default function FeaturedWork() {
           <div className='flex flex-col md:flex-row space-x-4 mb-10 items-start gap-4'>
             <Image
             src={work.src}
-            width={200}
-            height={200}
+            width={800}
+            height={800}
             alt={work.title}
             className='rounded-md'/>
           <div className='ml-7'>
