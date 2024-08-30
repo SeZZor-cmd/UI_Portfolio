@@ -43,12 +43,14 @@ export default function page() {
         {works.map((work,index)=>(
           <React.Fragment key={index}>
           <div className='flex flex-col md:flex-row space-x-4 mb-10 items-start gap-4'>
+            <div >
             <Image
             src={work.src}
-            width={200}
-            height={200}
+            width={800}
+            height={800}
             alt={work.title}
             className='rounded-md'/>
+            </div>
           <div className='ml-7'>
             <a href='/Details' className='font-bold text-[30px]'>{work.title}</a><br />
             <span className='bg-[#142850] text-white rounded-full px-2 py-0.5 text-[18px] mt-4'>{work.year} </span>
